@@ -1,0 +1,28 @@
+# Core dependencies
+sounddevice
+numpy
+SpeechRecognition
+googletrans
+pyttsx3
+pygame
+
+# Optional dependencies for advanced features
+# Uncomment based on your chosen backends:
+
+# For OpenAI services
+# openai>=1.0.0
+
+# For Groq services (recommended for fast inference)
+groq
+
+# For local Whisper
+# openai-whisper>=20231117
+# librosa>=0.10.0
+
+# For better audio processing
+# pyaudio>=0.2.11  # Alternative to sounddevice
+PyAudio
+# For development
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0

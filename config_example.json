@@ -1,0 +1,15 @@
+{
+  "sample_rate": 16000,
+  "chunk_duration": 2.0,
+  "silence_threshold": 0.01,
+  "stt_backend": "google",
+  "translation_backend": "groq",
+  "tts_backend": "pyttsx3",
+  "openai_api_key": null,
+  "groq_api_key": "ex",
+  "max_queue_size": 10,
+  "processing_timeout": 10.0,
+  "source_language": "en",
+  "target_language": "pt",
+  "log_level": "INFO"
+}
