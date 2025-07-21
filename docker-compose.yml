@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  speech-translator:
+    build:
+      context: .
+      dockerfile: .dockerfile
+    container_name: speech-to-speech-translator
+    restart: unless-stopped
+    volumes:
+      # Mount logs directory for persistent logs
+      - ./logs:/app/logs
+      # Mount config for easy configuration changes
+      - ./config.json:/app/config.json:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Uncomment if you need to access audio devices
+    # devices:
+    #   - /dev/snd:/dev/snd
+    # privileged: true
+    networks:
+      - translator-network
+
+networks:
+  translator-network:
+    driver: bridge
