@@ -6,7 +6,7 @@ import time
 import tempfile
 import os
 
-from.config import Config
+from src.config import Config
 
 try:
     import openai

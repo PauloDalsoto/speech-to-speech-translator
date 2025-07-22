@@ -6,7 +6,7 @@ import tempfile
 import os
 import librosa
 
-from.config import Config
+from src.config import Config
 
 try:
     import openai

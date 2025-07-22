@@ -2,8 +2,8 @@ import argparse
 import logging
 import os
 
-from .src.config import Config
-from .src.s2stSystem import S2STSystem
+from src.config import Config
+from src.s2stSystem import S2STSystem
 
 def setup_logging(level: str):
     """Configure logging."""

@@ -2,7 +2,7 @@ from typing import Optional
 import logging
 from googletrans import Translator
 
-from.config import Config
+from src.config import Config
 
 try:
     import openai

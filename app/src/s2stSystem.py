@@ -4,11 +4,11 @@ import queue
 import threading
 import time
 
-from.config import Config
-from.audioCapture import AudioCapture
-from.sttProcessor import STTProcessor
-from.ttsProcessor import TTSProcessor
-from.translationProcessor import TranslationProcessor
+from src.config import Config
+from src.audioCapture import AudioCapture
+from src.sttProcessor import STTProcessor
+from src.ttsProcessor import TTSProcessor
+from src.translationProcessor import TranslationProcessor
 
 class S2STSystem:
     """Main Speech-to-Speech Translation System."""

@@ -5,7 +5,7 @@ import logging
 import time
 import speech_recognition as sr
 
-from.config import Config
+from src.config import Config
 
 class AudioCapture:
     """Handles continuous audio capture from microphone."""
